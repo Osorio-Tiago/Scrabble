@@ -1,5 +1,6 @@
 #pragma once
-
+#include <ostream>
+#include <stdexcept>
 using namespace std;
 
 template <typename T>

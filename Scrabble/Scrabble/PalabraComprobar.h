@@ -1,5 +1,4 @@
-#include <ostream>
-#include <stdexcept>
+
 #include "Serializadora.h"
 
 
@@ -13,6 +12,7 @@ public:
 	virtual ~PalabraComprobar();
 
 	void setPalabra(string);
-	string palabra(); 
+	string getpalabra();
+	void deserealizar();
 };
 
