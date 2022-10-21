@@ -12,8 +12,7 @@ public:
 	PalabraComprobar();
 	virtual ~PalabraComprobar();
 
-
-
-
+	void setPalabra(string);
+	string palabra(); 
 };
 

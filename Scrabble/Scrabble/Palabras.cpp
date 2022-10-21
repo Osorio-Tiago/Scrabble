@@ -6,7 +6,7 @@ void Palabras::insertarPalabra(Palabra* palabra){
     arrayPalabras.push_back(palabra);
 }
 void Palabras::eliminarPalabra(Palabra* palabra){
-   // arrayPalabras.erase(3);
+    //arrayPalabras.erase();
 }
 Palabra* Palabras::getPalabra(int pos){
     if(this->arrayPalabras.size() > pos)
