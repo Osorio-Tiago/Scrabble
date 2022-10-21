@@ -10,12 +10,12 @@ protected:
 	Serializadora() {};
 
 public:
-	Serializadora(Serealizadora const&) = delete; 
-	Serealizadora& operator = (Serealizadora const&) = delete;
+	Serializadora(Serializadora const&) = delete; 
+	Serializadora& operator = (Serializadora const&) = delete;
 
 	static T& obtenerInstancia() {
 		static T Serializadora;
-		return Serealizadora;
+		return Serializadora;
 	}
 
 };

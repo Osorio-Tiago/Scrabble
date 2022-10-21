@@ -54,6 +54,6 @@ void Palabra::BorrarLista() {
 
 char Palabra::getLetraInicio(){
 	if(inicio != nullptr)
-		return this.inicio.getLetraInicio();
-	return '';
+		return this->inicio->getLetra();
+	return ' ';
 }

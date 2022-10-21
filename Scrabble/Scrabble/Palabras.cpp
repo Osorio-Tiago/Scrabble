@@ -2,19 +2,19 @@
 
 Palabras::Palabras() = default;
 
-void Palabra::insertarPalabra(Palabra* palabra){
-this.arrayPalabras.push_back(palabra);
+void Palabras::insertarPalabra(Palabra* palabra){
+    arrayPalabras.push_back(palabra);
 }
-void Palabra::eliminarPalabra(Palabra* palabra){
-    this.arrayPalabras.delete(palabra);
+void Palabras::eliminarPalabra(Palabra* palabra){
+   // arrayPalabras.erase(3);
 }
-Palabra* Palabra::getPalabra(int pos){
-    if(this.arrayPalabras.size() > pos)
-        return this.arrayPalabras.at(pos);
+Palabra* Palabras::getPalabra(int pos){
+    if(this->arrayPalabras.size() > pos)
+        return this->arrayPalabras.at(pos);
     return nullptr;
 }
-char Palabra::getPrimeraLetra(int pos){
-    if(this.arrayPalabras.size() > pos)
-        return this.arrayPalabras.at(pos).getLetraInicio();
-    return nullptr;
+char Palabras::getPrimeraLetra(int pos){
+    if(this->arrayPalabras.size() > pos)
+        return this->arrayPalabras.at(pos)->getLetraInicio();
+    return ' ';
 }
