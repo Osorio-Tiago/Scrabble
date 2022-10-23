@@ -36,10 +36,7 @@
     <ClCompile Include="Tablero.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="Serializadora.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
-    <ClCompile Include="PalabraComprobar.cpp">
+    <ClCompile Include="PalabrasComprobar.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,7 +62,7 @@
     <ClInclude Include="Serializadora.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="PalabraComprobar.h">
+    <ClInclude Include="PalabrasComprobar.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

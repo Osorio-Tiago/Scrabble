@@ -143,10 +143,9 @@
     <ClCompile Include="Juego.cpp" />
     <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="Palabra.cpp" />
-    <ClCompile Include="PalabraComprobar.cpp" />
+    <ClCompile Include="PalabrasComprobar.cpp" />
     <ClCompile Include="Palabras.cpp" />
     <ClCompile Include="Scrabble.cpp" />
-    <ClCompile Include="Serializadora.cpp" />
     <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -154,7 +153,7 @@
     <ClInclude Include="Juego.h" />
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="Palabra.h" />
-    <ClInclude Include="PalabraComprobar.h" />
+    <ClInclude Include="PalabrasComprobar.h" />
     <ClInclude Include="Palabras.h" />
     <ClInclude Include="Serializadora.h" />
     <ClInclude Include="Tablero.h" />
