@@ -27,10 +27,12 @@ std::vector<std::string> PalabrasComprobar::GetPalabras() {
 }
 
 bool PalabrasComprobar::ExistePalabra(std::string palabra){
-	for (int i = 0; i <= palabras.size(); i++) {
-		return palabras[i]._Equal(palabra); 
+	bool existe = false; 
+	for (int i = 0; i < palabras.size(); i++) {
+		if(palabras[i] == palabra)
+			existe = true; 
 	}
-	return false;
+	return existe; 
 }
 
 
