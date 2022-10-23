@@ -9,9 +9,9 @@ private:
     std::vector<Palabra*> arrayPalabras;
 public:
 
-Palabras();
-void insertarPalabra(Palabra*);
-void eliminarPalabra(Palabra*);
-Palabra* getPalabra(int);
-char getPrimeraLetra(int);
+    Palabras();
+    void insertarPalabra(Palabra*);
+    void eliminarPalabra(Palabra*);
+    Palabra* getPalabra(int);
+    char getPrimeraLetra(int);
 };
