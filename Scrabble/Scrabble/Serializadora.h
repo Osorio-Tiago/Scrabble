@@ -1,7 +1,9 @@
 #pragma once
-#include <ostream>
-#include <stdexcept>
-using namespace std;
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+#include <exception>
 
 template <typename T>
 class Serializadora
